@@ -128,7 +128,7 @@ layers:
   - SPACE
   - RET
   - '0'
-  - .
+  - ','
   Nav:
   - ''
   - ''
@@ -218,9 +218,13 @@ layers:
 combos:
 - p: [14, 15]
   k: Ctl+ C
+  l: [default]
 - p: [15, 16]
   k: Gui+ V
+  l: [default]
 - p: [14, 16]
   k: Ctl+ X
+  l: [default]
 - p: [19, 20]
-  k: Gui+ S
+  k: Gui+Sft+ S
+  l: [default]
