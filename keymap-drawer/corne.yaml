@@ -37,70 +37,27 @@ layers:
   - .
   - /
   - ESC
-  - {t: FPS, h: toggle}
-  - lower
+  - LEFT WIN
+  - numpad+bt
   - SPACE
   - RET
   - raise
-  - RALT
-  lower:
-  - TAB
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - SPACE
-  - RET
-  - {t: ▽, type: trans}
-  - RALT
+  - {t: FPS, h: toggle}
   raise:
   - TAB
   - '!'
-  - '@'
+  - '"'
   - '#'
   - $
   - '%'
-  - ^
   - '&'
-  - '*'
+  - /
   - (
   - )
+  - {t: ▽, type: trans}
   - BSPC
   - LCTRL
-  - {t: ▽, type: trans}
+  - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,7 +69,7 @@ layers:
   - \
   - '`'
   - LSHFT
-  - '&de_ue'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,6 +86,49 @@ layers:
   - RET
   - {type: held}
   - RALT
+  numpad+bt:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - {t: ▽, type: trans}
+  - BSPC
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - /
+  - '*'
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - +
+  - '-'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - SPACE
+  - RET
+  - '0'
+  - .
   FPS:
   - {t: ▽, type: trans}
   - '1'
@@ -144,9 +144,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Q
-  - D
   - A
   - S
+  - D
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - X
+  - C
   - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -155,27 +167,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: default, h: toggle}
   - E
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
 combos:
-- p: [26, 27]
+- p: [14, 15]
   k: Ctl+ C
-- p: [27, 28]
-  k: Ctl+ V
-- p: [26, 28]
+- p: [15, 16]
+  k: Gui+ V
+- p: [14, 16]
   k: Ctl+ X
+- p: [19, 20]
+  k: Gui+ S
