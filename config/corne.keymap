@@ -15,21 +15,25 @@
         Copy {
             bindings = <&kp LC(C)>;
             key-positions = <14 15>;
+            layers = <0>;
         };
 
         Paste {
             bindings = <&kp LG(V)>;
             key-positions = <15 16>;
+            layers = <0>;
         };
 
         Cut {
             bindings = <&kp LC(X)>;
             key-positions = <14 16>;
+            layers = <0>;
         };
 
         Screen {
-            bindings = <&kp LG(S)>;
+            bindings = <&kp LG(LS(S))>;
             key-positions = <19 20>;
+            layers = <0>;
         };
     };
 
@@ -74,10 +78,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &trans        &trans        &trans        &trans        &trans          &trans   &kp N6  &kp N7      &kp N8  &trans    &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &kp N4  &kp N5      &kp N6  &kp FSLH  &kp STAR
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans   &kp N1  &kp N2      &kp N3  &kp PLUS  &kp MINUS
-                                        &trans        &trans        &kp SPACE       &kp RET  &kp N0  &kp PERIOD
+&trans      &trans        &trans        &trans        &trans        &trans          &trans   &kp N6  &kp N7     &kp N8  &trans    &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &kp N4  &kp N5     &kp N6  &kp FSLH  &kp STAR
+&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans   &kp N1  &kp N2     &kp N3  &kp PLUS  &kp MINUS
+                                        &trans        &trans        &kp SPACE       &kp RET  &kp N0  &kp COMMA
             >;
         };
 
