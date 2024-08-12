@@ -172,3 +172,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [26, 27]
+  k: Ctl+ C
+- p: [27, 28]
+  k: Ctl+ V
+- p: [26, 28]
+  k: Ctl+ X
