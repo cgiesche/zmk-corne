@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - DEL
   - LSHFT
   - Z
   - X
@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - ESC
-  - LEFT WIN
+  - Nav
   - numpad+bt
   - SPACE
   - RET
@@ -129,6 +129,49 @@ layers:
   - RET
   - '0'
   - .
+  Nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - UP
+  - END
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   FPS:
   - {t: ▽, type: trans}
   - '1'
