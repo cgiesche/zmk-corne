@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - LCTRL
+  - LSHFT
   - A
   - S
   - D
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - DEL
-  - LSHFT
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -44,7 +44,7 @@ layers:
   - raise
   - {t: FPS, h: toggle}
   raise:
-  - TAB
+  - {t: ▽, type: trans}
   - '!'
   - '"'
   - '#'
@@ -56,7 +56,7 @@ layers:
   - )
   - {t: ▽, type: trans}
   - BSPC
-  - LCTRL
+  - {t: ▽, type: trans}
   - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -68,7 +68,7 @@ layers:
   - ']'
   - \
   - '`'
-  - LSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,7 +111,7 @@ layers:
   - '6'
   - /
   - '*'
-  - LSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
