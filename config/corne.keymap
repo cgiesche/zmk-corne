@@ -48,10 +48,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp DEL
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &mo 3  &mo 2  &kp SPACE    &kp RET  &mo 1  &to 4
+&kp TAB           &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LSHFT         &kp A  &kp S  &kp D  &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp DEL
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                                &mo 3  &mo 2  &kp SPACE    &kp RET  &mo 1  &to 4
             >;
         };
 
@@ -63,10 +63,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL     &kp DOUBLE_QUOTES  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp BSPC
-&kp LCTRL  &kp AT_SIGN  &trans             &trans    &trans    &trans       &kp MINUS      &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH  &kp GRAVE
-&kp LSHFT  &trans       &trans             &trans    &trans    &trans       &kp UNDER      &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE  &kp TILDE
-                                           &trans    &trans    &kp SPACE    &kp RET        &trans     &kp RALT
+&trans  &kp EXCL     &kp DOUBLE_QUOTES  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp BSPC
+&trans  &kp AT_SIGN  &trans             &trans    &trans    &trans       &kp MINUS      &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH  &kp GRAVE
+&trans  &trans       &trans             &trans    &trans    &trans       &kp UNDER      &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE  &kp TILDE
+                                        &trans    &trans    &kp SPACE    &kp RET        &trans     &kp RALT
             >;
         };
 
@@ -80,7 +80,7 @@
             bindings = <
 &trans      &trans        &trans        &trans        &trans        &trans          &trans   &kp N6  &kp N7     &kp N8  &trans    &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &kp N4  &kp N5     &kp N6  &kp FSLH  &kp STAR
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans   &kp N1  &kp N2     &kp N3  &kp PLUS  &kp MINUS
+&trans      &trans        &trans        &trans        &trans        &trans          &trans   &kp N1  &kp N2     &kp N3  &kp PLUS  &kp MINUS
                                         &trans        &trans        &kp SPACE       &kp RET  &kp N0  &kp COMMA
             >;
         };
