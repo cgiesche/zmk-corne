@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - ESC
-  - {t: ▽, type: trans}
+  - {t: FPS, h: toggle}
   - lower
   - SPACE
   - RET
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LGUI
+  - {t: ▽, type: trans}
   - {type: held}
   - SPACE
   - RET
@@ -123,7 +123,7 @@ layers:
   - '}'
   - '|'
   - '~'
-  - LGUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - RET
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
   - E
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
