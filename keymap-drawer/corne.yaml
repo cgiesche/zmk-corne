@@ -226,5 +226,5 @@ combos:
   k: Ctl+ X
   l: [default]
 - p: [19, 20]
-  k: Gui+ S
+  k: LEFT WIN
   l: [default]
