@@ -228,3 +228,5 @@ combos:
 - p: [19, 20]
   k: LEFT WIN
   l: [default]
+- p: [0, 1]
+  k: EP TOG
