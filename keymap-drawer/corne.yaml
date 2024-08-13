@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   numpad+bt:
-  - {t: ▽, type: trans}
+  - EP TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,5 +228,3 @@ combos:
 - p: [19, 20]
   k: LEFT WIN
   l: [default]
-- p: [0, 1]
-  k: EP TOG
