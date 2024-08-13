@@ -31,7 +31,7 @@
         };
 
         Screen {
-            bindings = <&kp LG(S)>;
+            bindings = <&kp LEFT_WIN>;
             key-positions = <19 20>;
             layers = <0>;
         };
