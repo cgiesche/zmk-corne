@@ -13,17 +13,17 @@ layers:
   - O
   - P
   - BSPC
-  - LSHFT
-  - A
-  - S
-  - D
-  - F
+  - {t: ▽, type: trans}
+  - {t: LEFT SHIFT, h: A}
+  - {t: LEFT CONTROL, h: S}
+  - {t: LEFT ALT, h: D}
+  - {t: LEFT WIN, h: F}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: RIGHT GUI, h: J}
+  - {t: RIGHT ALT, h: K}
+  - {t: RIGHT CONTROL, h: L}
+  - {t: RIGHT SHIFT, h: ;}
   - DEL
   - LEFT CONTROL
   - Z
