@@ -14,16 +14,16 @@ layers:
   - P
   - BSPC
   - {t: ▽, type: trans}
-  - {t: LEFT SHIFT, h: A}
-  - {t: LEFT CONTROL, h: S}
-  - {t: LEFT ALT, h: D}
-  - {t: LEFT WIN, h: F}
+  - {t: A, h: LEFT SHIFT}
+  - {t: LEFT CONTROL, h: LEFT CONTROL}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT WIN}
   - G
   - H
-  - {t: RIGHT GUI, h: J}
-  - {t: RIGHT ALT, h: K}
-  - {t: RIGHT CONTROL, h: L}
-  - {t: RIGHT SHIFT, h: ;}
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: RIGHT ALT}
+  - {t: L, h: RIGHT CONTROL}
+  - {t: ;, h: RIGHT SHIFT}
   - DEL
   - LEFT CONTROL
   - Z
@@ -215,16 +215,3 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: default, h: toggle}
-combos:
-- p: [14, 15]
-  k: Ctl+ C
-  l: [default]
-- p: [15, 16]
-  k: Gui+ V
-  l: [default]
-- p: [14, 16]
-  k: Ctl+ X
-  l: [default]
-- p: [19, 20]
-  k: LEFT WIN
-  l: [default]
