@@ -15,7 +15,7 @@ layers:
   - BSPC
   - {t: ▽, type: trans}
   - {t: A, h: LEFT SHIFT}
-  - {t: LEFT CONTROL, h: LEFT CONTROL}
+  - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT WIN}
   - G
