@@ -57,16 +57,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - {t: '6', h: LEFT SHIFT}
+  - {t: '7', h: LEFT CONTROL, s: '&'}
+  - {t: '8', h: LEFT ALT, s: '*'}
+  - {t: '9', h: LEFT GUI, s: (}
   - {t: '0', s: )}
   - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - {t: '=', h: RIGHT GUI, s: +}
+  - {t: '[', h: RIGHT ALT, s: '{'}
+  - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
+  - {t: \, h: RIGHT SHIFT, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '"'
