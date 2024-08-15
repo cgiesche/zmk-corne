@@ -37,8 +37,8 @@ layers:
   - .
   - /
   - ESC
-  - Nav
   - numpad+bt
+  - Nav
   - SPACE
   - RET
   - raise
@@ -46,7 +46,7 @@ layers:
   raise:
   - {t: ▽, type: trans}
   - '!'
-  - '"'
+  - ''''
   - '#'
   - $
   - '%'
@@ -55,10 +55,10 @@ layers:
   - (
   - )
   - {t: ▽, type: trans}
-  - BSPC
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '@'
-  - {t: ▽, type: trans}
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -67,7 +67,7 @@ layers:
   - '['
   - ']'
   - \
-  - '`'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -79,7 +79,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - '~'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
@@ -97,7 +97,7 @@ layers:
   - HOME
   - UP
   - END
-  - {t: ▽, type: trans}
+  - INS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,8 +123,8 @@ layers:
   - {t: ▽, type: trans}
   - PAGE DOWN
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,8 +166,8 @@ layers:
   - '3'
   - +
   - '-'
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - SPACE
   - RET
   - '0'
@@ -214,4 +214,4 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: raise, h: toggle}
