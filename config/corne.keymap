@@ -60,10 +60,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp NUMBER_1       &kp NUMBER_2          &kp N3  &kp N4  &kp N5       &kp AMPERSAND  &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &trans
-&trans  &kp N6             &kp N7                &kp N8  &kp N9  &kp N0       &kp MINUS      &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH  &trans
-&trans  &kp DOUBLE_QUOTES  &kp LS(SINGLE_QUOTE)  &trans  &trans  &trans       &trans         &kp PLUS   &kp LBRC              &kp RBRC               &trans    &trans
-                                                 &trans  &trans  &kp SPACE    &kp RET        &trans     &kp RALT
+&trans  &kp NUMBER_1              &kp NUMBER_2          &kp N3            &kp N4            &kp N5       &kp AMPERSAND  &kp SLASH             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                 &trans
+&trans  &hrl LEFT_SHIFT NUMBER_6  &hrl LEFT_CONTROL N7  &hrl LEFT_ALT N8  &hrl LEFT_GUI N9  &kp N0       &kp MINUS      &hrr RIGHT_GUI EQUAL  &hrr RIGHT_ALT LBKT   &hrr RCTRL RBKT        &hrr RIGHT_SHIFT BSLH  &trans
+&trans  &kp DOUBLE_QUOTES         &kp LS(SINGLE_QUOTE)  &trans            &trans            &trans       &trans         &kp PLUS              &kp LBRC              &kp RBRC               &trans                 &trans
+                                                        &trans            &trans            &kp SPACE    &kp RET        &trans                &kp RALT
             >;
         };
 
