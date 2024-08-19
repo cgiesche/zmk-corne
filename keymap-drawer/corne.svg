@@ -568,6 +568,26 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator">FPS</text>
 </a><text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
+<g class="combo combopos-0">
+<rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
+<text x="240" y="125" class="combo tap">
+<tspan x="240" dy="-0.5em">Ctl+</tspan><tspan x="240" dy="1.0em">C</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<path d="M280,130 l-53,0" class="combo"/>
+<path d="M280,130 l53,0" class="combo"/>
+<rect rx="4" ry="4" x="262" y="112" width="36" height="36" class="combo"/>
+<text x="280" y="130" class="combo tap">
+<tspan x="280" dy="-0.5em">Ctl+</tspan><tspan x="280" dy="1.0em">X</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
+<text x="320" y="125" class="combo tap">
+<tspan x="320" dy="-0.5em">Ctl+</tspan><tspan x="320" dy="1.0em">V</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(0, 392)" class="layer-raise">
@@ -761,6 +781,26 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
+<text x="240" y="125" class="combo tap">
+<tspan x="240" dy="-0.5em">Ctl+</tspan><tspan x="240" dy="1.0em">C</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<path d="M280,130 l-53,0" class="combo"/>
+<path d="M280,130 l53,0" class="combo"/>
+<rect rx="4" ry="4" x="262" y="112" width="36" height="36" class="combo"/>
+<text x="280" y="130" class="combo tap">
+<tspan x="280" dy="-0.5em">Ctl+</tspan><tspan x="280" dy="1.0em">X</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
+<text x="320" y="125" class="combo tap">
+<tspan x="320" dy="-0.5em">Ctl+</tspan><tspan x="320" dy="1.0em">V</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(0, 785)" class="layer-Nav">
@@ -936,6 +976,26 @@ path.combo {
 <g transform="translate(880, 293)" class="key trans keypos-41">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
+<text x="240" y="125" class="combo tap">
+<tspan x="240" dy="-0.5em">Ctl+</tspan><tspan x="240" dy="1.0em">C</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<path d="M280,130 l-53,0" class="combo"/>
+<path d="M280,130 l53,0" class="combo"/>
+<rect rx="4" ry="4" x="262" y="112" width="36" height="36" class="combo"/>
+<text x="280" y="130" class="combo tap">
+<tspan x="280" dy="-0.5em">Ctl+</tspan><tspan x="280" dy="1.0em">X</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
+<text x="320" y="125" class="combo tap">
+<tspan x="320" dy="-0.5em">Ctl+</tspan><tspan x="320" dy="1.0em">V</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1129,6 +1189,26 @@ path.combo {
 <text x="0" y="0" class="key tap">,</text>
 <text x="0" y="-34" class="key shifted">&lt;</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
+<text x="240" y="125" class="combo tap">
+<tspan x="240" dy="-0.5em">Ctl+</tspan><tspan x="240" dy="1.0em">C</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<path d="M280,130 l-53,0" class="combo"/>
+<path d="M280,130 l53,0" class="combo"/>
+<rect rx="4" ry="4" x="262" y="112" width="36" height="36" class="combo"/>
+<text x="280" y="130" class="combo tap">
+<tspan x="280" dy="-0.5em">Ctl+</tspan><tspan x="280" dy="1.0em">X</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
+<text x="320" y="125" class="combo tap">
+<tspan x="320" dy="-0.5em">Ctl+</tspan><tspan x="320" dy="1.0em">V</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(0, 1569)" class="layer-FPS">
@@ -1303,6 +1383,26 @@ path.combo {
 <a href="#raise">
 <text x="0" y="0" class="key tap layer-activator">raise</text>
 </a><text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
+</g>
+<g class="combo combopos-0">
+<rect rx="4" ry="4" x="222" y="107" width="36" height="36" class="combo"/>
+<text x="240" y="125" class="combo tap">
+<tspan x="240" dy="-0.5em">Ctl+</tspan><tspan x="240" dy="1.0em">C</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<path d="M280,130 l-53,0" class="combo"/>
+<path d="M280,130 l53,0" class="combo"/>
+<rect rx="4" ry="4" x="262" y="112" width="36" height="36" class="combo"/>
+<text x="280" y="130" class="combo tap">
+<tspan x="280" dy="-0.5em">Ctl+</tspan><tspan x="280" dy="1.0em">X</tspan>
+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="4" ry="4" x="302" y="107" width="36" height="36" class="combo"/>
+<text x="320" y="125" class="combo tap">
+<tspan x="320" dy="-0.5em">Ctl+</tspan><tspan x="320" dy="1.0em">V</tspan>
+</text>
 </g>
 </g>
 </g>
