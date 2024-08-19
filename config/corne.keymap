@@ -110,10 +110,10 @@
 
         FPS {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp W   &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Q         &kp A         &kp S   &kp D         &kp R           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &kp X   &kp C         &kp G           &trans  &trans  &trans  &trans  &trans  &trans
-                                    &trans  &kp E         &trans          &trans  &trans  &to 1
+&trans            &kp NUMBER_1  &kp NUMBER_2  &kp W   &kp NUMBER_3  &kp R     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp Q         &kp A         &kp S   &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &trans        &trans        &kp X   &kp C         &kp G     &trans  &trans  &trans  &trans  &trans  &trans
+                                              &trans  &kp E         &trans    &trans  &trans  &to 1
             >;
         };
     };
