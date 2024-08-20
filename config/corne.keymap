@@ -8,11 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/rgb.h>
 
-&led_strip {
-    chain-length = <27>;
-};
+&led_strip { chain-length = <27>; };
 
 / {
     combos {
@@ -115,10 +112,10 @@
 
         FPS {
             bindings = <
-&trans            &kp NUMBER_1  &kp NUMBER_2  &kp W   &kp NUMBER_3  &kp R     &trans                            &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT    &kp Q         &kp A         &kp S   &kp D         &kp F     &rgb_ug RGB_COLOR_HSB(74,86,51)   &trans  &trans  &trans  &trans  &rgb_ug RGB_ON
-&kp LEFT_CONTROL  &trans        &trans        &kp X   &kp C         &kp G     &rgb_ug RGB_COLOR_HSB(294,93,52)  &trans  &trans  &trans  &trans  &trans
-                                              &trans  &kp E         &trans    &rgb_ug RGB_COLOR_HSB(168,68,50)  &trans  &to 1
+&trans            &kp NUMBER_1  &kp NUMBER_2  &kp W   &kp NUMBER_3  &kp R     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT    &kp Q         &kp A         &kp S   &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &trans        &trans        &kp X   &kp C         &kp G     &trans  &trans  &trans  &trans  &trans  &trans
+                                              &trans  &kp E         &trans    &trans  &trans  &to 1
             >;
         };
     };
