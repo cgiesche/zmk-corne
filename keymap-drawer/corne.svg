@@ -1288,9 +1288,12 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
 </g>
-<g transform="translate(760, 140)" class="key trans keypos-18">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(760, 140)" class="key keypos-18">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em" style="font-size: 62%">RGB</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">COLOR</tspan>
+<tspan x="0" dy="1.0em" style="font-size: 62%">HSB(74,…</tspan>
+</text>
 </g>
 <g transform="translate(840, 130)" class="key trans keypos-19">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1308,9 +1311,11 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(1160, 150)" class="key trans keypos-23">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(1160, 150)" class="key keypos-23">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em">RGB</tspan><tspan x="0" dy="1.0em">ON</tspan>
+</text>
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -1338,9 +1343,12 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
 <text x="0" y="0" class="key tap">G</text>
 </g>
-<g transform="translate(760, 220)" class="key trans keypos-30">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(760, 220)" class="key keypos-30">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em" style="font-size: 62%">RGB</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">COLOR</tspan>
+<tspan x="0" dy="1.0em" style="font-size: 62%">HSB(294…</tspan>
+</text>
 </g>
 <g transform="translate(840, 210)" class="key trans keypos-31">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
@@ -1374,9 +1382,12 @@ path.combo {
 <rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(698, 320) rotate(-30.0)" class="key trans keypos-39">
-<rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-13" y="-13" height="26" width="26.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(698, 320) rotate(-30.0)" class="key keypos-39">
+<rect rx="4" ry="4" x="-38" y="-58" width="77" height="117" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.0em" style="font-size: 62%">RGB</tspan><tspan x="0" dy="1.0em" style="font-size: 62%">COLOR</tspan>
+<tspan x="0" dy="1.0em" style="font-size: 62%">HSB(168…</tspan>
+</text>
 </g>
 <g transform="translate(792, 304) rotate(-15.0)" class="key trans keypos-40">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
